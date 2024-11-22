@@ -1,2 +1,4 @@
 title: Brush Stroke Parameterized Style Transfer
 theme: minima
+plugins:
+  - jekyll-titles-from-headings
