@@ -1,1 +1,3 @@
-# Brush Stroke Parameterized Style Transter
+# Brush Stroke Parameterized Style Transfer
+
+## Welcome to my CPSC project page
