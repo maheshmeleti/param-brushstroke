@@ -8,15 +8,13 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
 
 ## Results
 
-## Results
-
 <div style="display: flex; justify-content: space-around;">
   <video width="320" height="240" controls>
-    <source src="videos/clemson.avi" type="video/avi">
+    <source src="videos/clemson.mp4" type="video/avi">
     Your browser does not support the video tag.
   </video>
   <video width="320" height="240" controls>
-    <source src="videos/me.avi" type="video/avi">
+    <source src="videos/me.mp4" type="video/avi">
     Your browser does not support the video tag.
   </video>
 </div>
