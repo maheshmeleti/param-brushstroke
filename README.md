@@ -21,8 +21,8 @@ This video demonstrates the application of the brush stroke parameterized style 
 
 <div id="image-gallery" style="position: relative; width: 720px; height: 360px;">
   <img id="gallery-image" src="images/bridge.png" alt="Result 1" width="720" height="360">
-  <button id="prev-button" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: rgba(255, 255, 255, 0.5); border: none; font-size: 2em; cursor: pointer;">&#9664;</button>
-  <button id="next-button" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: rgba(255, 255, 255, 0.5); border: none; font-size: 2em; cursor: pointer;">&#9654;</button>
+  <button id="prev-button" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9664;</button>
+  <button id="next-button" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9654;</button>
 </div>
 <p id="image-description">This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.</p>
 
