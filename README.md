@@ -10,8 +10,8 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
 
 ### Video Result
 
-<video width="640" height="480" controls>
-  <source src="videos/me.mp4" type="video/mp4">
+<video width="700" height="480" controls>
+  <source src="videos/clemson.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -19,27 +19,29 @@ This video demonstrates the application of the brush stroke parameterized style 
 
 ### Image Results
 
-#### Result 1
+<div style="overflow-x: auto; white-space: nowrap;">
+  <div style="display: inline-block; margin-right: 10px;">
+    <img src="images/bridge.png" alt="Result 1" width="320" height="240">
+    <p>This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.</p>
+  </div>
+  <div style="display: inline-block; margin-right: 10px;">
+    <img src="images/strokes_zoomed.png" alt="Result 2" width="320" height="240">
+    <p>Here, we have a zoomed-in view of the brush strokes applied to a different scene. The details highlight the precision and customization capabilities of the algorithm.</p>
+  </div>
+  <div style="display: inline-block; margin-right: 10px;">
+    <img src="images/me.png" alt="Result 3" width="320" height="240">
+    <p>This image demonstrates the style transfer applied to a portrait. The transformation retains the subject's features while adding an artistic flair.</p>
+  </div>
+  <div style="display: inline-block; margin-right: 10px;">
+    <img src="images/Olive_tree_garden.png" alt="Result 4" width="320" height="240">
+    <p>In this example, the style transfer is applied to a garden scene. The brush strokes and color adjustments create a visually appealing artistic rendition.</p>
+  </div>
+</div>
 
-![Result 1](images/bridge.png)
-This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.
-
-#### Result 2
-
-![Result 2](images/strokes_zoomed.png)
-Here, we have a zoomed-in view of the brush strokes applied to a different scene. The details highlight the precision and customization capabilities of the algorithm.
-
-#### Result 3
-
-![Result 3](images/me.png)
-This image demonstrates the style transfer applied to a portrait. The transformation retains the subject's features while adding an artistic flair.
-
-#### Result 4
-
-![Result 4](images/Olive_tree_garden.png)
-In this example, the style transfer is applied to a garden scene. The brush strokes and color adjustments create a visually appealing artistic rendition.
-
-## Connect with me
+## Code
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch)
+
+## Connect with Me
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/mahesh-meleti/)
