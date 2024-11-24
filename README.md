@@ -56,8 +56,8 @@ This video demonstrates the application of the brush stroke parameterized style 
       nextButton.style.right = '0';
     } else {
       img.style.transform = 'scale(1.5)';
-      prevButton.style.left = '-10%';
-      nextButton.style.right = '-10%';
+      prevButton.style.left = '-30%';
+      nextButton.style.right = '-30%';
     }
   });
 
