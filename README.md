@@ -11,7 +11,7 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
 ### Video Result
 
 <video width="640" height="480" controls>
-  <source src="videos/clemson.mp4" type="video/mp4">
+  <source src="videos/me.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -38,3 +38,8 @@ This image demonstrates the style transfer applied to a portrait. The transforma
 
 ![Result 4](images/Olive_tree_garden.png)
 In this example, the style transfer is applied to a garden scene. The brush strokes and color adjustments create a visually appealing artistic rendition.
+
+## Connect with me
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/mahesh-meleti/)
