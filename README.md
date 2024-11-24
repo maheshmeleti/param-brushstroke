@@ -20,7 +20,7 @@ This video demonstrates the application of the brush stroke parameterized style 
 ### Image Results
 
 <div id="image-gallery" style="position: relative; width: 720px; height: 360px;">
-  <img id="gallery-image" src="images/bridge.png" alt="Result 1" width="720" height="360">
+  <img id="gallery-image" src="images/bridge.png" alt="Result 1" width="720" height="360" style="transition: transform 0.25s ease;">
   <button id="prev-button" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9664;</button>
   <button id="next-button" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9654;</button>
 </div>
@@ -46,6 +46,15 @@ This video demonstrates the application of the brush stroke parameterized style 
     updateGallery();
   });
 
+  document.getElementById('gallery-image').addEventListener('click', () => {
+    const img = document.getElementById('gallery-image');
+    if (img.style.transform === 'scale(1.5)') {
+      img.style.transform = 'scale(1)';
+    } else {
+      img.style.transform = 'scale(1.5)';
+    }
+  });
+
   function updateGallery() {
     document.getElementById('gallery-image').src = images[currentIndex].src;
     document.getElementById('gallery-image').alt = `Result ${currentIndex + 1}`;
@@ -53,10 +62,5 @@ This video demonstrates the application of the brush stroke parameterized style 
   }
 </script>
 
-## Code
-
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch)
-
-## Connect with Me
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/mahesh-meleti/)
