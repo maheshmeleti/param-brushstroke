@@ -52,12 +52,12 @@ This video demonstrates the application of the brush stroke parameterized style 
     const nextButton = document.getElementById('next-button');
     if (img.style.transform === 'scale(1.5)') {
       img.style.transform = 'scale(1)';
-      prevButton.style.transform = 'translateY(-50%) scale(1)';
-      nextButton.style.transform = 'translateY(-50%) scale(1)';
+      prevButton.style.left = '0';
+      nextButton.style.right = '0';
     } else {
       img.style.transform = 'scale(1.5)';
-      prevButton.style.transform = 'translateY(-50%) scale(1.5)';
-      nextButton.style.transform = 'translateY(-50%) scale(1.5)';
+      prevButton.style.left = '-10%';
+      nextButton.style.right = '-10%';
     }
   });
 
