@@ -9,6 +9,12 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
 ## Results
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="videos/clemson.gif" alt="Clemson GIF" width="320" height="240">
-  <img src="videos/me.gif" alt="Me GIF" width="320" height="240">
+  <video width="320" height="240" controls>
+    <source src="videos/clemson.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video width="320" height="240" controls>
+    <source src="videos/me.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
