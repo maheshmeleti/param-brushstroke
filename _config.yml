@@ -12,8 +12,7 @@ titles_from_headings:
   collections: true
 
 #social links
-social_links:
-  - platform: linkedin
-    user_url: https://www.linkedin.com/in/mahesh-meleti/
-  - platform: github
-    user_url: https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/mahesh-meleti/" }
