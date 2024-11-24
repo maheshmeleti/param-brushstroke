@@ -7,3 +7,6 @@ titles_from_headings:
   enabled:     true
   strip_title: true
   collections: true
+
+repository: https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch
+linkedin: https://www.linkedin.com/in/mahesh-meleti/

@@ -8,7 +8,14 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
 
 ## Results
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="images/clemson.gif" alt="Clemson GIF" width="320" height="240">
-  <img src="images/me.gif" alt="Me GIF" width="320" height="240">
+<video width="320" height="240" controls>
+  <source src="videos/clemson.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<div style="display: flex; justify-content: space-around; margin-top: 20px;">
+  <img src="images/bridge.png" alt="Result 1" width="320" height="240">
+  <img src="images/strokes_zoomed.png" alt="Result 2" width="320" height="240">
+  <img src="images/me.png" alt="Result 2" width="320" height="240">
+  <img src="Olive_tree_garden/.png" alt="Result 2" width="320" height="240">
 </div>
