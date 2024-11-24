@@ -9,6 +9,6 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
 ## Results
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="images/clemson.gif" alt="Clemson GIF" width="320" height="240">
-  <img src="images/me.gif" alt="Me GIF" width="320" height="240">
+  <img src="videos/clemson.gif" alt="Clemson GIF" width="320" height="240">
+  <img src="videos/me.gif" alt="Me GIF" width="320" height="240">
 </div>
