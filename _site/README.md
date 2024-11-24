@@ -13,6 +13,7 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
   Your browser does not support the video tag.
 </video>
 
+
 <div style="display: flex; justify-content: space-around; margin-top: 20px;">
   <img src="images/bridge.png" alt="Result 1" width="320" height="240">
   <img src="images/strokes_zoomed.png" alt="Result 2" width="320" height="240">
