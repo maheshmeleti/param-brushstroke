@@ -1,18 +1,16 @@
 title: Brush Stroke Parameterized Style Transfer
-author:
-  name: Mahesh Meleti
-  email: maheshmeleti350@gmail.com
+author: Mahesh Meleti
+email: maheshmeleti350@gmail.com
 theme: minima
 plugins:
   - jekyll-titles-from-headings
 
 titles_from_headings:
-  enabled:     true
+  enabled: true
   strip_title: true
   collections: true
 
-#social links
 minima:
   social_links:
-    - { platform: github,  user_url: "https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch" }
+    - { platform: github, user_url: "https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/mahesh-meleti/" }
