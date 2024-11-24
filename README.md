@@ -10,7 +10,7 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
 
 ### Video Result
 
-<video width="700" height="480" controls>
+<video width="640" height="480" controls>
   <source src="videos/clemson.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
