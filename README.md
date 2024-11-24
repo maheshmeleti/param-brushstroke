@@ -10,7 +10,7 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
 
 ### Video Result
 
-<video width="640" height="480" controls>
+<video width="700" height="480" controls>
   <source src="videos/clemson.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -19,10 +19,10 @@ This video demonstrates the application of the brush stroke parameterized style 
 
 ### Image Results
 
-<div id="image-gallery" style="position: relative; width: 320px; height: 240px;">
-  <img id="gallery-image" src="images/bridge.png" alt="Result 1" width="320" height="240">
-  <button id="prev-button" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%);">Previous</button>
-  <button id="next-button" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%);">Next</button>
+<div id="image-gallery" style="position: relative; width: 720px; height: 360px;">
+  <img id="gallery-image" src="images/bridge.png" alt="Result 1" width="720" height="360">
+  <button id="prev-button" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: none; border: none; font-size: 2em; cursor: pointer;">&#9664;</button>
+  <button id="next-button" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: none; border: none; font-size: 2em; cursor: pointer;">&#9654;</button>
 </div>
 <p id="image-description">This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.</p>
 
