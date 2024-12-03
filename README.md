@@ -15,7 +15,7 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
   Your browser does not support the video tag.
 </video>
 
-This video demonstrates the application of the brush stroke parameterized style transfer technique on a sample video. The transformation showcases the effectiveness of the algorithm in maintaining high-quality artistic effects.
+ video demonstrates the application of the parameterized brush strokes optimizatoin using content and  style transfer .
 
 ### Image Results
 
@@ -24,14 +24,14 @@ This video demonstrates the application of the brush stroke parameterized style 
   <button id="prev-button" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9664;</button>
   <button id="next-button" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9654;</button>
 </div>
-<p id="image-description">This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.</p>
+<!-- <p id="image-description">This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.</p> -->
 
 <script>
   const images = [
-    { src: 'images/bridge.png', description: 'This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.' },
-    { src: 'images/strokes_zoomed.png', description: 'Here, we have a zoomed-in view of the brush strokes applied to a different scene. The details highlight the precision and customization capabilities of the algorithm.' },
-    { src: 'images/me.png', description: 'This image demonstrates the style transfer applied to a portrait. The transformation retains the subject\'s features while adding an artistic flair.' },
-    { src: 'images/Olive_tree_garden.png', description: 'In this example, the style transfer is applied to a garden scene. The brush strokes and color adjustments create a visually appealing artistic rendition.' }
+    { src: 'images/bridge.png', description: 'This image shows the result of applying the style transfer technique to content image - Golden Gate Bridge and Style image Van Gogh\'s Starry Night. Notice the intricate brush strokes and the overall artistic transformation.' },
+    { src: 'images/strokes_zoomed.png', description: 'Zoomed in view of brush strokes and texture after pixel optimization' },
+    { src: 'images/me.png', description: 'Style transfer applied on human (It\'s me in the photo :) )' },
+    { src: 'images/Olive_tree_garden.png', description: 'The style transfer is applied to Olive garden with stylization using the famous painting - The stone Bench in the Garden of Saint-Paul Hospital by Van Gogh' }
   ];
 
   let currentIndex = 0;
@@ -68,11 +68,22 @@ This video demonstrates the application of the brush stroke parameterized style 
   }
 </script>
 
-## Connect with Me
+## Social and Other Links
+
+[![Website](https://img.shields.io/badge/Website-Portfolio-blue?logo=google-chrome)](https://maheshmeleti.github.io/)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/mahesh-meleti/)
+
 [![Paper](https://img.shields.io/badge/Course-Paper-blue)](paper/BrushStroke_StyleTransfer.pdf)
+
+[![Presentation](https://img.shields.io/badge/Course-Presentation-blue)](paper/final_project presentation.pdf)
+
+[![Course-homepage](https://img.shields.io/badge/Course-Page-blue)](https://sites.google.com/view/cpsc8810-2024fall/home)
+
+
+
 
 ## References
 
@@ -86,4 +97,3 @@ This video demonstrates the application of the brush stroke parameterized style 
 ## Citation
 
 @misc{meleti2024brushstroke, title={Brush Stroke Parameterized Style Transfer}, author={Uma Maheswara R Meleti}, year={2024}, url={https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch}, }
-```
