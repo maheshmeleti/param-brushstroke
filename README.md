@@ -1,6 +1,6 @@
 ## Abstract
 
-This project, titled "Brush Stroke Parameterized Style Transfer," explores the application of parameterized brush stroke techniques in the field of style transfer. By leveraging advanced algorithms and machine learning models, the project aims to achieve high-quality artistic transformations of images. The implementation is designed to be efficient and user-friendly, providing customizable parameters to control the style transfer process. This work has potential applications in digital art, graphic design, and other creative industries.
+Computer Vision-based Style Transfer techniques have been used for many years to represent artistic style. However, most contemporary methods have been restricted to the pixel domain; in other words, the style transfer approach has been modifying the image pixels to incorporate artistic style. However, real artistic work is made of brush strokes with different colors on a canvas. Pixel-based approaches are unnatural for representing these images. Hence, this paper discusses a style transfer method that represents the image in the brush stroke domain instead of the RGB domain, which has better visual improvement over pixel-based methods. 
 
 ## Methodology
 
@@ -19,19 +19,21 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
 
 ### Image Results
 
+<span style="color: blue;">##### Click on the image to zoom in and out</span>
+
 <div id="image-gallery" style="position: relative; width: 720px; height: 360px;">
   <img id="gallery-image" src="images/bridge.png" alt="Result 1" width="720" height="360" style="transition: transform 0.25s ease;">
   <button id="prev-button" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9664;</button>
   <button id="next-button" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9654;</button>
 </div>
-<!-- <p id="image-description">This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.</p> -->
+<p id="image-description">This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.</p>
 
 <script>
   const images = [
     { src: 'images/bridge.png', description: 'This image shows the result of applying the style transfer technique to content image - Golden Gate Bridge and Style image Van Gogh\'s Starry Night. Notice the intricate brush strokes and the overall artistic transformation.' },
     { src: 'images/strokes_zoomed.png', description: 'Zoomed in view of brush strokes and texture after pixel optimization' },
     { src: 'images/me.png', description: 'Style transfer applied on human (It\'s me in the photo :) )' },
-    { src: 'images/Olive_tree_garden.png', description: 'The style transfer is applied to Olive garden with stylization using the famous painting - The stone Bench in the Garden of Saint-Paul Hospital by Van Gogh' }
+    { src: 'images/Olive_tree_garden.png', description: 'The style transfer is applied to Olive garden with stylization using the famous The stone Bench in the Garden of Saint-Paul Hospital by Van Gogh' }
   ];
 
   let currentIndex = 0;
@@ -56,8 +58,8 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
       nextButton.style.right = '0';
     } else {
       img.style.transform = 'scale(1.5)';
-      prevButton.style.left = '-30%';
-      nextButton.style.right = '-30%';
+      prevButton.style.left = '-10%';
+      nextButton.style.right = '-10%';
     }
   });
 
@@ -66,11 +68,14 @@ This project, titled "Brush Stroke Parameterized Style Transfer," explores the a
     document.getElementById('gallery-image').alt = `Result ${currentIndex + 1}`;
     document.getElementById('image-description').textContent = images[currentIndex].description;
   }
+
+  // Initialize the gallery with the first image description
+  updateGallery();
 </script>
 
 ## Social and Other Links
 
-[![Website](https://img.shields.io/badge/Website-Portfolio-blue?logo=google-chrome)](https://maheshmeleti.github.io/)
+<!-- [![Website](https://img.shields.io/badge/Website-Portfolio-blue?logo=google-chrome)](https://maheshmeleti.github.io/) -->
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch)
 
