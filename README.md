@@ -19,14 +19,16 @@ Computer Vision-based Style Transfer techniques have been used for many years to
 
 ### Image Results
 
-<span style="color: blue;">##### Click on the image to zoom in and out</span>
+<span style="color: blue;"> Click on the image </span>
 
 <div id="image-gallery" style="position: relative; width: 720px; height: 360px;">
   <img id="gallery-image" src="images/bridge.png" alt="Result 1" width="720" height="360" style="transition: transform 0.25s ease;">
   <button id="prev-button" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9664;</button>
   <button id="next-button" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9654;</button>
+  <div id="image-caption" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; background: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px; text-align: center;">
+    This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.
+  </div>
 </div>
-<p id="image-description">This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.</p>
 
 <script>
   const images = [
@@ -64,9 +66,11 @@ Computer Vision-based Style Transfer techniques have been used for many years to
   });
 
   function updateGallery() {
-    document.getElementById('gallery-image').src = images[currentIndex].src;
-    document.getElementById('gallery-image').alt = `Result ${currentIndex + 1}`;
-    document.getElementById('image-description').textContent = images[currentIndex].description;
+    const img = document.getElementById('gallery-image');
+    const caption = document.getElementById('image-caption');
+    img.src = images[currentIndex].src;
+    img.alt = `Result ${currentIndex + 1}`;
+    caption.textContent = images[currentIndex].description;
   }
 
   // Initialize the gallery with the first image description
@@ -81,11 +85,11 @@ Computer Vision-based Style Transfer techniques have been used for many years to
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/mahesh-meleti/)
 
-[![Paper](https://img.shields.io/badge/Course-Paper-blue)](paper/BrushStroke_StyleTransfer.pdf)
+[![Paper](https://img.shields.io/badge/Project%20Paper-c1ff33)](paper/BrushStroke_StyleTransfer.pdf)
 
 [![Presentation](https://img.shields.io/badge/Course-Presentation-blue)](paper/final_project presentation.pdf)
 
-[![Course-homepage](https://img.shields.io/badge/Course-Page-blue)](https://sites.google.com/view/cpsc8810-2024fall/home)
+<!-- [![Course-homepage](https://img.shields.io/badge/Course-Page-blue)](https://sites.google.com/view/cpsc8810-2024fall/home) -->
 
 
 
