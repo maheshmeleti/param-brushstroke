@@ -1,6 +1,6 @@
 ## Abstract
 
-Computer Vision-based Style Transfer techniques have been used for many years to represent artistic style. However, most contemporary methods have been restricted to the pixel domain; in other words, the style transfer approach has been modifying the image pixels to incorporate artistic style. However, real artistic work is made of brush strokes with different colors on a canvas. Pixel-based approaches are unnatural for representing these images. Hence, this paper discusses a style transfer method that represents the image in the brush stroke domain instead of the RGB domain, which has better visual improvement over pixel-based methods. 
+Computer Vision-based Style Transfer techniques have been used for many years to represent artistic style. However, most contemporary methods have been restricted to the pixel domain; in other words, the style transfer approach has been modifying the image pixels to incorporate artistic style. However, real artistic work is made of brush strokes with different colors on a canvas. Pixel-based approaches are unnatural for representing these images. Hence, this paper discusses a style transfer method that represents the image in the brush stroke domain instead of the RGB domain, which has better visual improvement over pixel-based methods.
 
 ## Methodology
 
@@ -15,17 +15,17 @@ Computer Vision-based Style Transfer techniques have been used for many years to
   Your browser does not support the video tag.
 </video>
 
- video demonstrates the application of the parameterized brush strokes optimizatoin using content and  style transfer .
+This video demonstrates the application of the parameterized brush strokes optimization using content and style transfer.
 
 ### Image Results
 
-<span style="color: blue;"> Click on the image </span>
+<span style="color: blue;">##### Click on the image to zoom in and out</span>
 
 <div id="image-gallery" style="position: relative; width: 720px; height: 360px;">
   <img id="gallery-image" src="images/bridge.png" alt="Result 1" width="720" height="360" style="transition: transform 0.25s ease;">
   <button id="prev-button" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9664;</button>
   <button id="next-button" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9654;</button>
-  <div id="image-caption" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; background: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px; text-align: center;">
+  <div id="image-caption" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); color: white; background: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px; text-align: center; width: 100%;">
     This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.
   </div>
 </div>
@@ -77,22 +77,22 @@ Computer Vision-based Style Transfer techniques have been used for many years to
   updateGallery();
 </script>
 
-## Social and Other Links
+## Social and Other
 
-<!-- [![Website](https://img.shields.io/badge/Website-Portfolio-blue?logo=google-chrome)](https://maheshmeleti.github.io/) -->
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/mahesh-meleti/)
-
-[![Paper](https://img.shields.io/badge/Project%20Paper-c1ff33)](paper/BrushStroke_StyleTransfer.pdf)
-
-[![Presentation](https://img.shields.io/badge/Course-Presentation-blue)](paper/final_project presentation.pdf)
-
-<!-- [![Course-homepage](https://img.shields.io/badge/Course-Page-blue)](https://sites.google.com/view/cpsc8810-2024fall/home) -->
-
-
-
+<div style="display: flex; gap: 10px;">
+  <a href="https://github.com/maheshmeleti/brushstroke-parameterized-style-transfer-pytorch">
+    <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/mahesh-meleti/">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="paper/BrushStroke_StyleTransfer.pdf">
+    <img src="https://img.shields.io/badge/Project%20Paper-3a3e51" alt="Paper">
+  </a>
+  <a href="paper/final_project_presentation.pdf">
+    <img src="https://img.shields.io/badge/Course-Presentation-blue" alt="Presentation">
+  </a>
+</div>
 
 ## References
 
