@@ -19,7 +19,7 @@ This video demonstrates the application of the parameterized brush strokes optim
 
 ### Image Results
 
-<span style="color: blue;">##### Click on the image to zoom in and out</span>
+<span style="color: blue;">Click on the image to zoom</span>
 
 <div id="image-gallery" style="position: relative; width: 720px; height: 360px;">
   <img id="gallery-image" src="images/bridge.png" alt="Result 1" width="720" height="360" style="transition: transform 0.25s ease;">
@@ -59,12 +59,12 @@ This video demonstrates the application of the parameterized brush strokes optim
       img.style.transform = 'scale(1)';
       prevButton.style.left = '0';
       nextButton.style.right = '0';
-      caption.style.top = '-10px';
+      caption.style.top = '0px';
     } else {
       img.style.transform = 'scale(1.5)';
       prevButton.style.left = '-30%';
       nextButton.style.right = '-30%';
-      caption.style.top = '20px'; // Move the caption down when zoomed
+      caption.style.top = '40px'; // Move the caption down when zoomed
     }
   });
 
