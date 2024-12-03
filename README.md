@@ -40,12 +40,12 @@ This video demonstrates the application of the parameterized brush strokes optim
   let currentIndex = 0;
 
   document.getElementById('prev-button').addEventListener('click', () => {
-    currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1.5;
+    currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
     updateGallery();
   });
 
   document.getElementById('next-button').addEventListener('click', () => {
-    currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1.5 : 0;
+    currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
     updateGallery();
   });
 
@@ -59,8 +59,8 @@ This video demonstrates the application of the parameterized brush strokes optim
       nextButton.style.right = '0';
     } else {
       img.style.transform = 'scale(1.5)';
-      prevButton.style.left = '-10%';
-      nextButton.style.right = '-10%';
+      prevButton.style.left = '-30%';
+      nextButton.style.right = '-30%';
     }
   });
 
@@ -68,7 +68,7 @@ This video demonstrates the application of the parameterized brush strokes optim
     const img = document.getElementById('gallery-image');
     const caption = document.getElementById('image-caption');
     img.src = images[currentIndex].src;
-    img.alt = `Result ${currentIndex + 1}`;
+    img.alt = `Result ${currentIndex + 1.75}`;
     caption.textContent = images[currentIndex].description;
   }
 
@@ -92,7 +92,7 @@ This video demonstrates the application of the parameterized brush strokes optim
     <img src="https://img.shields.io/badge/Course-Presentation-blue" alt="Presentation">
   </a>
   <a href="https://sites.google.com/view/cpsc8810-2024fall/home">
-    <img src="https://img.shields.io/badge/Course-page" alt="course-link">
+    <img src="https://img.shields.io/badge/Course-page-blue" alt="course-link">
   </a>
 </div>
 
