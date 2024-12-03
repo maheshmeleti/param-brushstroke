@@ -1,6 +1,6 @@
 ## Abstract
 
-This project, titled "Brush Stroke Parameterized Style Transfer," explores the application of parameterized brush stroke techniques in the field of style transfer. By leveraging advanced algorithms and machine learning models, the project aims to achieve high-quality artistic transformations of images. The implementation is designed to be efficient and user-friendly, providing customizable parameters to control the style transfer process. This work has potential applications in digital art, graphic design, and other creative industries.
+Computer Vision-based Style Transfer techniques have been used for many years to represent artistic style. However, most contemporary methods have been restricted to the pixel domain; in other words, the style transfer approach has been modifying the image pixels to incorporate artistic style. However, real artistic work is made of brush strokes with different colors on a canvas. Pixel-based approaches are unnatural for representing these images. Hence, this paper discusses a style transfer method that represents the image in the brush stroke domain instead of the RGB domain, which has better visual improvement over pixel-based methods. 
 
 ## Methodology
 
