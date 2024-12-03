@@ -19,14 +19,14 @@ This video demonstrates the application of the parameterized brush strokes optim
 
 ### Image Results
 
-<span style="color: blue;">Click on the image</span>
+<span style="color: blue;">##### Click on the image to zoom in and out</span>
 
 <div id="image-gallery" style="position: relative; width: 720px; height: 360px;">
   <img id="gallery-image" src="images/bridge.png" alt="Result 1" width="720" height="360" style="transition: transform 0.25s ease;">
   <button id="prev-button" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9664;</button>
   <button id="next-button" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9654;</button>
 </div>
-<p id="image-description" style="text-align: center; color: white; background: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px; width: 720px; margin: 0 auto; position: relative; top: -30px;">
+<p id="image-description" style="text-align: center; color: white; background: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px; width: 720px; margin: 0 auto; position: relative; top: -20px;">
   This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.
 </p>
 
@@ -59,12 +59,12 @@ This video demonstrates the application of the parameterized brush strokes optim
       img.style.transform = 'scale(1)';
       prevButton.style.left = '0';
       nextButton.style.right = '0';
-      caption.style.top = '-20px';
+      caption.style.top = '-10px';
     } else {
       img.style.transform = 'scale(1.5)';
       prevButton.style.left = '-30%';
       nextButton.style.right = '-30%';
-      caption.style.top = '-40px';
+      caption.style.top = '20px'; // Move the caption down when zoomed
     }
   });
 
