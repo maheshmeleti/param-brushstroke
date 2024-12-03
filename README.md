@@ -19,15 +19,14 @@ This video demonstrates the application of the parameterized brush strokes optim
 
 ### Image Results
 
-<span style="color: blue;">##### Click on the image to zoom in and out</span>
+<span style="color: blue;">Click on the image</span>
 
 <div id="image-gallery" style="position: relative; width: 720px; height: 360px;">
   <img id="gallery-image" src="images/bridge.png" alt="Result 1" width="720" height="360" style="transition: transform 0.25s ease;">
   <button id="prev-button" style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9664;</button>
   <button id="next-button" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: rgba(128, 128, 128, 0.9); border: none; font-size: 2em; cursor: pointer;">&#9654;</button>
   <div id="image-caption" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); color: white; background: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px; text-align: center; width: 100%;">
-    This image shows the result of applying the style transfer technique to a bridge scene. Notice the intricate brush strokes and the overall artistic transformation.
-  </div>
+    This image shows the result of applying the style transfer technique to content image - Golden Gate Bridge and Style image Van Gogh\'s Starry Night. Notice the intricate brush strokes and the overall artistic transformation.  </div>
 </div>
 
 <script>
@@ -41,12 +40,12 @@ This video demonstrates the application of the parameterized brush strokes optim
   let currentIndex = 0;
 
   document.getElementById('prev-button').addEventListener('click', () => {
-    currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+    currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1.5;
     updateGallery();
   });
 
   document.getElementById('next-button').addEventListener('click', () => {
-    currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+    currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1.5 : 0;
     updateGallery();
   });
 
@@ -91,6 +90,9 @@ This video demonstrates the application of the parameterized brush strokes optim
   </a>
   <a href="paper/final_project_presentation.pdf">
     <img src="https://img.shields.io/badge/Course-Presentation-blue" alt="Presentation">
+  </a>
+  <a href="https://sites.google.com/view/cpsc8810-2024fall/home">
+    <img src="https://img.shields.io/badge/Course-page" alt="course-link">
   </a>
 </div>
 
